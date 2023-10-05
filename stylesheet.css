@@ -1,0 +1,554 @@
+/* typography setting start */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/* typography setting end */
+
+/* text styling per guidelines start */
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+  
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+  
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+  
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+nav a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+nav span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+menu li {
+     font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+#social li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+footer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+dt {
+    font-weight: bold;
+}
+
+dt, dd {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+/* text styling per guidelines end */
+
+/* intro start */
+
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body{
+    background-color: #F2F2F2;
+    width: 414px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* intro end */
+/* header start */
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-top: 130px;
+}
+/* header end */
+/* top-nav start */
+#top-nav {
+    margin-top: -20px;
+}
+#top-nav li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#top-nav a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #EB5428;
+    display: block;
+    margin: 0 15px;
+}
+/* top-nav end */
+/* image start */
+#tacos {
+    width: 414px;
+}
+/* image end */
+/* paragraphs start */
+p {
+    font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ padding: 0.5rem;
+}
+/* paragraphs end */
+/* details start */
+#details {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#details h2 {
+    text-align: center;
+}
+dt {
+    font-weight: bold;
+}
+
+dt, dd {
+    display: inline;
+}
+/* details end */
+/* ingredients start */
+#ingredients h2 {
+    text-align: center;
+}
+
+#ingredients li {
+    margin-bottom: 5px;
+}
+/* ingredients end */
+/* directions start */
+#directions h2 {
+    text-align: center;
+}
+#directions li {
+    padding: 0.5rem;
+}
+/* directions end */
+/* sides start */
+aside {
+    background-color: #7ABFBF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+aside img {
+    float: left;
+    margin-left: 10px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside h3 {
+    margin-left: 115px;
+    margin-bottom: 1px;
+}
+  
+aside p {
+    margin-left: 105px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.rating {
+    font-weight: bold;
+    margin-left: 105px;
+    margin-top: 1px;
+}
+
+aside svg {
+}
+/* sides end */
+/* mainNav start */
+#main-nav {
+    width: 414px;
+    height: 125px;
+    margin-top: -40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#main-nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+#mainNav li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EB5428;
+}
+
+#mainNav a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #EB5428;
+}
+
+#mainNav ul{
+    margin: 0;
+    padding: 0;
+    max-height: 0px;
+    color: #EB5428;
+    overflow: hidden; 
+    transition: max-height .2s ease-out;  
+}
+ 
+#main-nav ul {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+} 
+ 
+#main-nav li a {
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: #EB5428;
+}
+
+.hamburger-icon {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    left: 20px;
+}
+
+.hamburger-hover:hover {
+    width: 40px;
+    height: 50px;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 11px;
+    position: relative;
+    user-select: none;
+}
+
+#main-nav label span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    left: 72px;
+    bottom: -80px;
+    transition: background-color .2s ease-out;
+}
+
+#main-nav label span:before, #main-nav label span:after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+#main-nav label span:before {
+    top: 5px;
+}
+
+#main-nav label span:after {
+    top: -5px;
+}
+
+#main-nav input {
+    display: none;
+}
+
+#main-nav input:checked ~ ul {
+    max-height: 500px;
+}
+
+#main-nav input:checked ~ label span {
+    background: transparent;
+}
+
+#main-nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+}
+
+[href="#home"] {
+    position: absolute;
+    top: 2px;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+.icon-tabler-tools-kitchen {
+  background-color: #EB5428;
+  position: absolute;
+  top: 33px;
+  padding: 20px 80px;
+  left: 115px;
+  margin: 10px;
+}
+
+.avatar {
+  position: absolute;
+  top: 92px;
+  right: 20px;
+}
+
+.icon-tabler-user-circle {
+  stroke: #EB5428;
+  position: absolute;
+  top: 50px;
+  right: 27px;
+}
+
+#main-nav a:hover, #main-nav input:hover{
+  background-color: #EB5428;
+  color: #FFFFFF;
+}
+
+.menu {
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
+    display: none;
+}
+/* mainNav end */
+
+/* search start */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.search-bar input {
+    width: 250px;
+    border: 3px solid #EB5428;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+button {
+    background-color: #EB5428;
+    border-style: none;
+    cursor: pointer;
+}
+
+.icon-tabler-search {
+   stroke: #FFFFFF;
+}
+
+/* search end */
+/* connect start */
+#connect li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#connect a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #EB5428;
+    display: block;
+    margin: 0 15px;
+}
+/* connect end */
+/* footer start */
+footer p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer img {
+    margin-top: -450px;
+    margin-left: -50px;
+}
+/* footer end */
+
+
+/* small screens end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium screens start */
+
+/* intro end */
+/* header start */
+
+/* header start */
+/* topNav start */
+
+/* topNav end */
+/* image start */
+
+/* image end */
+/* paragraphs start */
+
+/* paragraphs end */
+/* details start */
+
+/* details end */
+/* ingredients start */
+
+/* ingredients end */
+/* directions start */
+
+/* directions end */
+/* sides start */
+
+/* sides end */
+/* mainNav start */
+
+/* mainNav end */
+/* hamburger start */
+
+/* hamburger end */
+/* signIn start */
+
+/* signIn end */
+/* search start */
+
+/* search end */
+/* connect start */
+
+/* connect end */
+/* footer start */
+
+/* footer end */
+
+
+/* medium screens end */
+/* large screens start */
+
+/* intro end */
+/* header start */
+
+/* header start */
+/* topNav start */
+
+/* topNav end */
+/* image start */
+
+/* image end */
+/* paragraphs start */
+
+/* paragraphs end */
+/* details start */
+
+/* details end */
+/* ingredients start */
+
+/* ingredients end */
+/* directions start */
+
+/* directions end */
+/* sides start */
+
+/* sides end */
+/* mainNav start */
+
+/* mainNav end */
+/* hamburger start */
+
+/* hamburger end */
+/* signIn start */
+
+/* signIn end */
+/* search start */
+
+/* search end */
+/* connect start */
+
+/* connect end */
+/* footer start */
+
+/* footer end */
+
+/* large screens end */
