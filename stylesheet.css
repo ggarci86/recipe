@@ -1,0 +1,966 @@
+/* typography setting start */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/* typography setting end */
+
+/* CSS reset start */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    /*margin: 0; */
+    /* padding: 0; */ 
+    /* border: 0; */
+    /* font-size: 100%;*/
+    /* font: inherit; */
+    /* vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+    /* line-height: 1; */
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS reset end */
+
+/* text styling per guidelines start */
+h1 {
+    color: #0D0D0D;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+  
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+  
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+  
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+nav a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+nav span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+menu li {
+     font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+#social li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+footer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+  
+dt {
+    font-weight: bold;
+}
+
+dt, dd {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+  
+/* text styling per guidelines end */
+
+/* intro start */
+
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body{
+    background-color: #F2F2F2;
+    width: 414px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* intro end */
+
+/* header start */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-top: 130px;
+}
+
+/* header end */
+
+/* top-nav start */
+
+#top-nav {
+    margin-top: -20px;
+}
+
+#top-nav li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+#top-nav a {
+    color: #EB5428;
+    display: block;
+    margin: 0 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* top-nav end */
+
+/* image start */
+
+#tacos {
+    width: 414px;
+}
+
+/* image end */
+
+/* paragraphs start */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+/* paragraphs end */
+
+/* details start */
+
+#details {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#details h2 {
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt, dd {
+    display: inline;
+}
+
+/* details end */
+
+/* ingredients start */
+
+#ingredients h2 {
+    text-align: center;
+}
+
+#ingredients li {
+    margin-bottom: 5px;
+}
+
+/* ingredients end */
+
+/* directions start */
+
+#directions h2 {
+    text-align: center;
+}
+
+#directions li {
+    padding: 0.5rem;
+}
+
+/* directions end */
+
+/* sides start */
+
+aside {
+    background-color: #7ABFBF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+aside img {
+    float: left;
+    margin-left: 15px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside h3 {
+    margin-left: 125px;
+    margin-bottom: 1px;
+}
+  
+aside p {
+    margin-left: 115px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.rating {
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 1px;
+}
+
+.rate-rice, .rate-salsa, .rate-guacamole, .rate-tortillas {
+    margin-left: 120px;
+}
+
+/* sides end */
+
+/* mainNav start */
+
+#main-nav {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    font-size: 20px;
+    text-transform: uppercase;
+    position: fixed;
+    width: 414px;
+    height: 125px;
+    margin-top: -40px;
+    top: 0;
+    z-index: 1;
+}
+
+#main-nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+ 
+#main-nav ul {
+    background-color: #FFFFFF;
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: max-height .2s ease-out;
+} 
+ 
+#main-nav li a {
+    color: #EB5428;
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 2px;
+}
+
+.hamburger-icon {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    left: 20px;
+}
+
+.hamburger-hover:hover {
+    width: 40px;
+    height: 50px;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 11px;
+    user-select: none;
+}
+
+#main-nav label span {
+    display: block;
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    left: 72px;
+    bottom: -80px;
+    transition: background-color .2s ease-out;
+}
+
+#main-nav label span:before, #main-nav label span:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: all .2s ease-out;
+}
+
+#main-nav label span:before {
+    top: 5px;
+}
+
+#main-nav label span:after {
+    top: -5px;
+}
+
+#main-nav input {
+    display: none;
+}
+
+#main-nav input:checked ~ ul {
+    max-height: 500px;
+}
+
+#main-nav input:checked ~ label span {
+    background: transparent;
+}
+
+#main-nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+}
+
+[href="#home"] {
+    position: absolute;
+    top: 2px;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+.icon-tabler-tools-kitchen {
+    background-color: #EB5428;
+    position: absolute;
+    top: 33px;
+    padding: 20px 80px;
+    left: 115px;
+    margin: 10px;
+}
+
+.avatar {
+    position: absolute;
+    top: 92px;
+    right: 19px;
+}
+
+.icon-tabler-user-circle {
+    stroke: #EB5428;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+#main-nav a:hover, #main-nav input:hover{
+    background-color: #EB5428;
+    color: #FFFFFF;
+}
+
+.menu {
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
+    display: none;
+}
+/* mainNav end */
+
+/* search start */
+.search-bar {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+
+.search-bar input {
+    background-color: #FFFFFF;
+    border: 3px solid #EB5428;
+    width: 250px;
+    padding: 5px;
+}
+
+button {
+    background-color: #EB5428;
+    border-style: none;
+    cursor: pointer;
+}
+
+.icon-tabler-search {
+    stroke: #FFFFFF;
+}
+
+/* search end */
+
+/* connect start */
+
+#connect li {
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+#connect a {
+    color: #EB5428;
+    display: block;
+    margin: 0 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* connect end */
+
+/* footer start */
+
+#copyright {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+footer img {
+    position: relative;
+    margin-left: 145px;
+    width: 250px;
+    height: 250px;
+    top: -370px;
+    left: -55px;
+}
+
+/* footer end */
+/* small screens end */
+
+/* medium screens start */
+
+@media screen and (min-width: 768px) {
+body {
+    width: 768px;
+}
+
+/* intro end */
+
+/* header start */
+
+h1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+
+/* header start */
+
+/* top-nav start */
+
+#top-nav li {
+    margin: 0 40px;
+}
+
+/* top-nav end */
+
+/* image start */
+
+#tacos {
+    width: 768px;
+    z-index: 2;
+}
+
+/* image end */
+
+/* details start */
+
+dl {
+    margin-left: 260px;
+}
+/* details end */
+
+/* ingredients start */
+
+#ingredients {
+    position: relative;  
+    left: 20px; 
+}
+
+/* ingredients end */
+
+/* directions start */
+
+#ingredients, #directions {
+    display: inline-block;
+    margin: 0 auto;
+}   
+    
+#directions {
+    position: relative;
+    width: 500px;
+    left: 40px; 
+}
+
+/* directions end */
+
+/* sides start */
+
+aside img {
+    float: left;
+    margin-left: 215px;
+}
+
+
+aside h3 {
+    margin-left: 425px;
+}
+  
+aside p {
+    margin-left: 415px;
+}
+
+.rating {
+    margin-left: 415px;
+}
+
+.rate-rice, .rate-salsa, .rate-guacamole, .rate-tortillas {
+    margin-left: 420px;
+}
+
+/* sides end */
+
+/* main-nav start */
+
+#main-nav {
+    width: 768px;
+    height: 255px;
+}
+      
+#main-nav li {
+    width: 115px;
+}
+      
+#main-nav a {
+    width: 70px;
+}
+      
+.hamburger-icon {
+    display: none;
+}
+      
+#main-nav label, #dropdown {
+    visibility: hidden;
+}
+      
+[href="#home"] {
+    left: -70px;
+}
+      
+.icon-tabler-tools-kitchen {
+    position: absolute;
+    padding: 28px 13px;
+}
+      
+#main-nav img {
+    width: 50px;
+}
+      
+#main-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    margin-top: 60px;
+    margin-left: 30px;
+    list-style: none;
+}
+      
+.nav-text {
+    position: relative;
+    margin-left: -30px;
+    top: 70px;
+}
+      
+.breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
+    visibility: visible;
+    display: flex;
+    position: relative;
+    top: -30px;
+    left: 15%;
+}
+
+/* mainNav end */
+
+/* search start */
+
+.search-bar {
+    display: flex;
+    position: fixed;
+    top: 25px;
+    right: -255px;
+    z-index: 1;
+}
+      
+.search-bar input {
+    background-color: #FFFFFF;
+    border: 3px solid #EB5428;
+    width: 250px;
+    padding: 5px;
+}
+      
+button {
+    background-color: #EB5428;
+    border-style: none;
+    cursor: pointer;
+}
+  
+.icon-tabler-search {
+    stroke: #FFFFFF;
+} 
+
+/* search end */
+
+/* connect start */
+
+#connect li {
+    float: right;
+}
+/* connect end */
+
+/* footer start */
+
+footer img {
+    top: -260px;
+    left: -40px;
+}
+
+footer p {
+    position: relative;
+    top: 100px;
+    left: -155px;
+}
+
+/* footer end */
+}
+/* medium screens end */
+
+/* large screens start */
+
+@media screen and (min-width: 1280px) {
+body {
+    width: 1280px;
+    margin-top: -40px;
+}
+
+/* intro end */
+/* header start */
+
+h1 {
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: -20px;
+}
+
+/* header start */
+
+/* topNav start */
+
+#top-nav {
+    background-color:rgba(255, 255, 255);
+    border-color: #EB5428; 
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 40px;
+    width: 125px;
+    height: 580px;
+    padding: 0.5em;
+}
+
+#top-nav li {
+   display: inline-block;
+   margin-top: 15px;
+   margin-bottom: 30px;
+}
+
+#top-nav a {
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* topNav end */
+
+/* image start */
+
+#tacos {
+    position: relative;
+    width: 470px;
+    height: 600px;
+    top: -618px;
+    left: 150px;
+}
+
+/* image end */
+
+/* paragraphs start */
+
+#p1, #p2 {
+    position: relative;
+    width: 600px;
+    margin: 30px;
+    top: -1230px;
+    left: 600px;
+}
+
+/* paragraphs end */
+
+/* details start */
+
+#details {
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+    position: relative;
+    height: 150px;
+    top: -968px;
+}
+
+#details h2 {
+    position: relative;
+    margin: 0;
+    top: 20px;
+}
+
+dl {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    margin-top: -40px;
+    margin-left: 120px;
+    top: -10px;
+    text-align: center;
+}
+
+dt {
+    top: 50px;
+    left: -50px;
+    font-weight: bold;
+}
+
+dd {
+    top: 75px;
+    left: -90px;
+}
+
+dt, dd {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+}
+
+/* details end */
+
+/* ingredients start */
+
+#ingredients {
+    position: relative;
+    top: -980px;
+    left: 20px;
+}
+
+/* ingredients end */
+
+/* directions start */
+
+#directions {
+    position: relative;
+    width: 800px;
+    margin-left: 70px;
+    top: -1070px;
+}
+
+/* directions end */
+
+/* sides start */
+
+aside {
+    margin-top: -1000px;
+}
+
+aside img {
+    margin-left: 410px;
+}
+
+aside h3 {
+    margin-left: 675px;
+}
+  
+aside p {
+    margin-left: 665px;
+}
+
+.rating {
+    margin-left: 665px;
+}
+
+.rate-rice, .rate-salsa, .rate-guacamole, .rate-tortillas {
+    margin-left: 670px;
+}
+
+/* sides end */
+
+/* mainNav start */
+
+#main-nav {
+    width: 1280px;
+    height: 162px;
+    z-index: 2;
+}
+     
+#main-nav li {
+   width: 115px;
+}
+     
+#main-nav a {
+   width: 70px;
+}
+     
+.hamburger-icon {
+   display: none;
+}
+     
+#main-nav label, #dropdown {
+   visibility: hidden;
+}
+     
+[href="#home"] {
+    left: -70px;
+    top: 19px;
+    padding-left: 57px;
+}
+     
+.icon-tabler-tools-kitchen {
+    padding: 31px 13px;
+}
+     
+#main-nav img {
+    width: 50px;
+}
+     
+#main-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    list-style: none;
+    margin-top: -7px;
+}
+     
+.nav-text {
+    position: relative;
+    top: 55px;
+}
+     
+.breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
+    top: -30px;
+    left: 15%;
+}
+   
+.icon-tabler-user-circle {
+   width: 60px; 
+   height: 60px; 
+}
+    
+.avatar {
+   top: 115px;
+   right: 27px;
+}
+
+/* mainNav end */
+
+/* search start */
+
+.search-bar {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 180px;
+    left: 0;
+    right: 0;
+}
+/* search end */
+
+/* footer start */
+footer p {
+    top: -160px;
+}
+/* footer end */
+}
+/* large screens end */
